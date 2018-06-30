@@ -1,6 +1,6 @@
 ### Deploying with web-console
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/South-Paw/sgrave-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Athunik/sgrave-bot)
 
 1. Click the button above.
 2. Set SALIEN_CONFIG_V2 ([see note below](#heroku-configuration)).
@@ -13,7 +13,7 @@ If you see "Application Error" when going to the webpage of your app, it's okay 
 ### Deploying with Heroku CLI
 
 ```bash
-$ git clone https://github.com/South-Paw/sgrave-bot -o upstream
+$ git clone https://github.com/Athunik/sgrave-bot -o upstream
 $ cd sgrave-bot
 $ heroku create [APP_NAME]
 $ heroku config:set "SALIEN_CONFIG_V2=[APP_CONFIG]"
@@ -81,7 +81,7 @@ then you would make your config look like this:
 
 The easiest way to update script on heroku is to just delete your old app and create new.
 
-You can also link your Heroku app to your Dropbox account. To do that, [download this repository](https://github.com/South-Paw/salien-script-js/archive/master.zip) as a zip archive, and unpack it to the folder created on your Dropbox.
+You can also link your Heroku app to your Dropbox account. To do that, [download this repository](https://github.com/Athunik/sgrave-bot/archive/master.zip) as a zip archive, and unpack it to the folder created on your Dropbox.
 
 For more info on this, visit: https://devcenter.heroku.com/articles/dropbox-sync
 
@@ -91,7 +91,7 @@ For more info on this, visit: https://devcenter.heroku.com/articles/dropbox-sync
 2. In your heroku app control panel, at Deploy tab, connect your app to a forked repository and enable automatic deploys.
 3. When update comes, merge changes into your repo on github:
     1. Create new pull request.
-    2. Select your repo's master branch as base fork, and South-Paw/salien-script-js master branch as head fork.
+    2. Select your repo's master branch as base fork, and Athunik/sgrave-bot master branch as head fork.
     3. Click on a big green button "Merge pull request".
 
 For more info on connecting github account, visit: https://devcenter.heroku.com/articles/github-integration
@@ -105,7 +105,7 @@ If you created your app using web-console, you need to clone heroku repo first
 ```bash
 $ git clone https://git.heroku.com/[APP_NAME].git -o heroku
 $ cd [APP_NAME]
-$ git remote add upstream https://github.com/South-Paw/salien-script-js.git
+$ git remote add upstream https://github.com/Athunik/sgrave-bot.git
 ```
 
 And then, fetch, merge and push
