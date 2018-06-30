@@ -4,6 +4,7 @@
 
 1. K‰ivitage skript ^
 2. M‰‰rake oma skriptis SALIEN_CONFIG_V2
+3. Enda tokeni saab j‰rgmiselt lingilt https://steamcommunity.com/saliengame/gettoken
 
 Kontrollige oma skripti effektiivsust https://dashboard.heroku.com/apps/[YOUR_APP_NAME]/logs
 
