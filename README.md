@@ -20,7 +20,7 @@ $ git push heroku master
 $ heroku ps:scale web=0 salien=1
 ```
 
-And to check if it works:
+Kontrollige kas skript töötab või mitte..
 
 ```bash
 $ heroku logs --tail
@@ -35,10 +35,10 @@ Skripti on võimalik panna ka teisi parameetreid..
 ```bash
 [
     {
-        "token": "12345",
-        "clan": "67890",
-        "name": "first_acc",
-        "selectedPlanetId": "28"
+        "token": "#",
+        "clan": "#",
+        "name": "$",
+        "selectedPlanetId": "#"
     }
 ]
 ```
