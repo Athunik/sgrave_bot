@@ -1,0 +1,73 @@
+{
+  "name": "salien-script-js",
+  "version": "0.0.13",
+  "description": "A easy to install, run and update Node.js script for the Steam salien mini-game.",
+  "keywords": [
+    "salien",
+    "steam",
+    "steam-sale",
+    "sale",
+    "game",
+    "script",
+    "steam-salien",
+    "salien-cheat",
+    "salien-script",
+    "saliens"
+  ],
+  "homepage": "https://github.com/South-Paw/salien-script-js",
+  "bugs": "https://github.com/South-Paw/salien-script-js/issues",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Alex Gabites",
+      "email": "hello@southpaw.co.nz",
+      "url": "http://southpaw.co.nz/"
+    },
+    {
+      "name": "Resi Respati",
+      "email": "resir014@gmail.com",
+      "url": "https://resir014.xyz/"
+    }
+  ],
+  "files": [
+    "bin",
+    "src"
+  ],
+  "bin": {
+    "salien-script-js": "./bin/cli.js"
+  },
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/South-Paw/salien-script-js.git"
+  },
+  "scripts": {
+    "lint": "eslint ./src",
+    "prepublishOnly": "npm run lint",
+    "prettier": "prettier --write \"src/**/*.js\"",
+    "test": "jest",
+    "test/coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "dateformat": "^3.0.3",
+    "delay": "^3.0.0",
+    "meow": "^5.0.0",
+    "node-fetch": "^2.1.2",
+    "update-check": "^1.5.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.1",
+    "eslint": "^5.0.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^23.1.0",
+    "prettier": "^1.13.5"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
